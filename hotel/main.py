@@ -3,7 +3,7 @@ from modelos.venta import Venta
 from servicios.tienda import Tienda
 
 # Crear tienda
-tienda = Tienda("hotel")
+tienda = Tienda("Tienda Virtual Online")
 
 # Crear productos
 producto1 = Producto("P001", "Laptop", 800)
@@ -22,4 +22,5 @@ venta1.confirmar_venta()
 
 # Mostrar productos disponibles nuevamente
 tienda.mostrar_productos_disponibles()
+
 
